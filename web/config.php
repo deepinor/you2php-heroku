@@ -1,9 +1,10 @@
 <?php
+$gl=(isset($_COOKIE['gl']) && $_COOKIE['gl'])?$_COOKIE['gl']:'DE';
 define('ROOT_PART', Root_part());
-define('APIKEY', getenv("APIKEY"));
-define('GJ_CODE', getenv("GJ_CODE"));
-define('SITE_NAME',getenv("SITE_NAME"));
-define('TITLENAME', getenv("TITLENAME"));
-define('EN2DEKEY',getenv("EN2DEKEY"));
-define('EMAIL', getenv("EMAIL"));
+define('APIKEY', 'AIzaSyBmmqJHhjUIwBQWvXjvvyu4hBKxNyEIiig');
+define('GJ_CODE', $gl);
+define('SITE_NAME', 'youtube');
+define('TITLENAME', 'youtube');
+define('EN2DEKEY', '0090909i604wkkfkak');
+define('EMAIL', 'guo.cx@guo.st');
 ?>
